@@ -1,0 +1,42 @@
+---
+title: "Release of SINGULAR 3-1-6"
+url: "/index.php/news/release-of-singular-3-1-6.html"
+description: "Singular - an open source computer algebra system"
+legacy_source: "index.php/news/release-of-singular-3-1-6.html"
+migration_status: "migrated from local legacy copy"
+---
+
+<h2 style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #b22222; font-size: 17.77777862548828px; margin: 1em 0px; padding: 0px; line-height: 17.77777862548828px; background-color: #f2f2f2;">News for version 3-1-6</h2>
+<p style="margin: 1em 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;"><a name="SEC2245" style="color: #004e77; font-weight: bold;"></a></p>
+<h2 style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #b22222; font-size: 17.77777862548828px; margin: 1em 0px; padding: 0px; line-height: 17.77777862548828px; background-color: #f2f2f2;">New S<small style="color: #454545; font-size: 16.666667938232422px;">INGULAR</small> libraries</h2>
+<ul style="margin: 1em 0px; padding: 0px; list-style: none; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;">
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: classifyceq.lib: simple hypersurface singularities in characteristic p ( <a href="/old/Manual/3-1-6/sing_1943.htm" style="color: #004e77; font-weight: bold;">classifyceq_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: divisors.lib: divisors and P-divisors ( <a href="/old/Manual/3-1-6/sing_1945.htm" style="color: #004e77; font-weight: bold;">divisors_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: ffsolve.lib: solving over Z/p ( <a href="/old/Manual/3-1-6/sing_1965.htm" style="color: #004e77; font-weight: bold;">ffsolve_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: gitfan.lib: compute GIT-fans ( <a href="/old/Manual/3-1-6/sing_2006.htm" style="color: #004e77; font-weight: bold;">gitfan_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: numerAlg.lib: Numerical Algebraic Algorithm ( <a href="/old/Manual/3-1-6/sing_2085.htm" style="color: #004e77; font-weight: bold;">numerAlg_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: numerDecom.lib: Bertini interface ( <a href="/old/Manual/3-1-6/sing_2090.htm" style="color: #004e77; font-weight: bold;">numerDecom_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: JMSConst.lib: constructing J-Marked Schemes ( <a href="/old/Manual/3-1-6/sing_2022.htm" style="color: #004e77; font-weight: bold;">JMSConst_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: JMBTest.lib: performs JM basis test ( <a href="/old/Manual/3-1-6/sing_2017.htm" style="color: #004e77; font-weight: bold;">JMBTest_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">new library: orbitparam.lib: parametrizing unipotent orbits ( <a href="/old/Manual/3-1-6/sing_2025.htm" style="color: #004e77; font-weight: bold;">orbitparam_lib</a>)</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">library for Singular 4: derham.lib: Computation of deRham cohomology ( <a href="/old/Manual/3-1-6/sing_2123.htm" style="color: #004e77; font-weight: bold;">derham_lib</a>)</li>
+</ul>
+<p style="margin: 1em 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;"><a name="SEC2246" style="color: #004e77; font-weight: bold;"></a></p>
+<h2 style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #b22222; font-size: 17.77777862548828px; margin: 1em 0px; padding: 0px; line-height: 17.77777862548828px; background-color: #f2f2f2;">Changed S<small style="color: #454545; font-size: 16.666667938232422px;">INGULAR</small> libraries</h2>
+<ul style="margin: 1em 0px; padding: 0px; list-style: none; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;">
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">improved grobcov.lib ( <a href="/old/Manual/3-1-6/sing_938.htm" style="color: #004e77; font-weight: bold;">grobcov_lib</a>)</li>
+</ul>
+<p style="margin: 1em 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;"><a name="SEC2247" style="color: #004e77; font-weight: bold;"></a></p>
+<h2 style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #b22222; font-size: 17.77777862548828px; margin: 1em 0px; padding: 0px; line-height: 17.77777862548828px; background-color: #f2f2f2;">Changed S<small style="color: #454545; font-size: 16.666667938232422px;">INGULAR</small> commands</h2>
+<ul style="margin: 1em 0px; padding: 0px; list-style: none; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;">
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">extgcd: ( <a href="/old/Manual/3-1-6/sing_287.htm" style="color: #004e77; font-weight: bold;">extgcd</a>): extended: for <code>bigint</code></li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">chinrem: ( <a href="/old/Manual/3-1-6/sing_265.htm" style="color: #004e77; font-weight: bold;">chinrem</a>): extended: for <code>bigint</code></li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">primefactors: ( <a href="/old/Manual/3-1-6/sing_366.htm" style="color: #004e77; font-weight: bold;">primefactors</a>): changed result list and algorithm</li>
+</ul>
+<p style="margin: 1em 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;"><a name="SEC2248" style="color: #004e77; font-weight: bold;"></a></p>
+<h2 style="font-family: 'Segoe UI', Arial, Helvetica, sans-serif; color: #b22222; font-size: 17.77777862548828px; margin: 1em 0px; padding: 0px; line-height: 17.77777862548828px; background-color: #f2f2f2;">Internal Changes</h2>
+<ul style="margin: 1em 0px; padding: 0px; list-style: none; font-family: Arial, Helvetica, sans-serif; line-height: 17.77777862548828px; background-color: #f2f2f2;">
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">several bug fixes in factorization code</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">polymake/gfan interface extended</li>
+<li style="padding-left: 30px; background-image: url('/old/templates/ja_purity/images/bullet.gif'); background-position: 18px 8px; background-repeat: no-repeat no-repeat;">interface to <code>iiMake_proc</code> changed</li>
+</ul>

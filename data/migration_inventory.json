@@ -1,0 +1,727 @@
+{
+  "source": "/Volumes/Daten/tosort4/singularweb/singular-www",
+  "generated_pages": 102,
+  "pages": [
+    {
+      "source": "index.html",
+      "target": "content/_index.md",
+      "url": "/",
+      "title": "Singular",
+      "bytes": 15043
+    },
+    {
+      "source": "index.php/background/acknowledgements.html",
+      "target": "content/legacy-index/background--acknowledgements.md",
+      "url": "/index.php/background/acknowledgements.html",
+      "title": "Acknowledgements",
+      "bytes": 10164
+    },
+    {
+      "source": "index.php/background/funding.html",
+      "target": "content/stubs/funding.md",
+      "url": "/index.php/background/funding.html",
+      "title": "Funding",
+      "bytes": 11538
+    },
+    {
+      "source": "index.php/background/history.html",
+      "target": "content/legacy/history.md",
+      "url": "/index.php/background/history.html",
+      "title": "The History of Singular",
+      "bytes": 15394
+    },
+    {
+      "source": "index.php/background/jenks-prize.html",
+      "target": "content/legacy/jenks-prize.md",
+      "url": "/index.php/background/jenks-prize.html",
+      "title": "Jenks Prize 2004 awarded to the SINGULAR Team",
+      "bytes": 12216
+    },
+    {
+      "source": "index.php/component/content/article/13687.html",
+      "target": "content/legacy-index/component--content--article--13687.md",
+      "url": "/index.php/component/content/article/13687.html",
+      "title": "Jenks Prize 2004 awarded to the SINGULAR Team",
+      "bytes": 12575
+    },
+    {
+      "source": "index.php/component/user/remind.html",
+      "target": "content/legacy-index/component--user--remind.md",
+      "url": "/index.php/component/user/remind.html",
+      "title": "Singular",
+      "bytes": 10756
+    },
+    {
+      "source": "index.php/component/user/reset.html",
+      "target": "content/legacy-index/component--user--reset.md",
+      "url": "/index.php/component/user/reset.html",
+      "title": "Singular",
+      "bytes": 10796
+    },
+    {
+      "source": "index.php/faq.html",
+      "target": "content/legacy-index/faq.md",
+      "url": "/index.php/faq.html",
+      "title": "Singular FAQs",
+      "bytes": 9585
+    },
+    {
+      "source": "index.php/graphical-interface.html",
+      "target": "content/stubs/graphical-interface.md",
+      "url": "/index.php/graphical-interface.html",
+      "title": "Jupyter Notebook",
+      "bytes": 13398
+    },
+    {
+      "source": "index.php/how-to-cite-singular.html",
+      "target": "content/stubs/how-to-cite.md",
+      "url": "/index.php/how-to-cite-singular.html",
+      "title": "How to cite SINGULAR",
+      "bytes": 12371
+    },
+    {
+      "source": "index.php/internal.html",
+      "target": "content/stubs/internal.md",
+      "url": "/index.php/internal.html",
+      "title": "Singular",
+      "bytes": 10825
+    },
+    {
+      "source": "index.php/links.html",
+      "target": "content/legacy/links.md",
+      "url": "/index.php/links.html",
+      "title": "Projects & Links",
+      "bytes": 9916
+    },
+    {
+      "source": "index.php/new-libraries/documentation-generator.html",
+      "target": "content/legacy-index/new-libraries--documentation-generator.md",
+      "url": "/index.php/new-libraries/documentation-generator.html",
+      "title": "Documentation Generator",
+      "bytes": 11515
+    },
+    {
+      "source": "index.php/new-libraries/formal-library-checker.html",
+      "target": "content/legacy-index/new-libraries--formal-library-checker.md",
+      "url": "/index.php/new-libraries/formal-library-checker.html",
+      "title": "Formal Library Checker",
+      "bytes": 10273
+    },
+    {
+      "source": "index.php/new-libraries/not-distributed-experimental-libraries.html",
+      "target": "content/legacy-index/new-libraries--not-distributed-experimental-libraries.md",
+      "url": "/index.php/new-libraries/not-distributed-experimental-libraries.html",
+      "title": "Experimental libraries not yet distributed",
+      "bytes": 14334
+    },
+    {
+      "source": "index.php/new-libraries/tools-for-writing-libraries.html",
+      "target": "content/legacy-index/new-libraries--tools-for-writing-libraries.md",
+      "url": "/index.php/new-libraries/tools-for-writing-libraries.html",
+      "title": "Tools for writing libraries",
+      "bytes": 10245
+    },
+    {
+      "source": "index.php/new-libraries.html",
+      "target": "content/stubs/new-libraries.md",
+      "url": "/index.php/new-libraries.html",
+      "title": "New Libraries",
+      "bytes": 11373
+    },
+    {
+      "source": "index.php/news/jenks-price-awarded-to-singular-.html",
+      "target": "content/news-details/jenks-price-awarded-to-singular-.md",
+      "url": "/index.php/news/jenks-price-awarded-to-singular-.html",
+      "title": "Jenks Price awarded to SINGULAR",
+      "bytes": 10146
+    },
+    {
+      "source": "index.php/news/new-singular-web-appearance.html",
+      "target": "content/news-details/new-singular-web-appearance.md",
+      "url": "/index.php/news/new-singular-web-appearance.html",
+      "title": "New SINGULAR web appearance",
+      "bytes": 9974
+    },
+    {
+      "source": "index.php/news/new-singular-web-site.html",
+      "target": "content/news-details/new-singular-web-site.md",
+      "url": "/index.php/news/new-singular-web-site.html",
+      "title": "New SINGULAR web site",
+      "bytes": 9940
+    },
+    {
+      "source": "index.php/news/new-world-record-by-singular-computation-.html",
+      "target": "content/news-details/new-world-record-by-singular-computation-.md",
+      "url": "/index.php/news/new-world-record-by-singular-computation-.html",
+      "title": "New world record by SINGULAR computation",
+      "bytes": 10112
+    },
+    {
+      "source": "index.php/news/registration-for-sage-days-235-starts.html",
+      "target": "content/news-details/registration-for-sage-days-235-starts.md",
+      "url": "/index.php/news/registration-for-sage-days-235-starts.html",
+      "title": "Registration for Sage Days 23.5 starts",
+      "bytes": 10197
+    },
+    {
+      "source": "index.php/news/release-of-singular-100.html",
+      "target": "content/news-details/release-of-singular-100.md",
+      "url": "/index.php/news/release-of-singular-100.html",
+      "title": "Release of SINGULAR 1.0.0",
+      "bytes": 9901
+    },
+    {
+      "source": "index.php/news/release-of-singular-120.html",
+      "target": "content/news-details/release-of-singular-120.md",
+      "url": "/index.php/news/release-of-singular-120.html",
+      "title": "Release of SINGULAR 1.2.0",
+      "bytes": 9901
+    },
+    {
+      "source": "index.php/news/release-of-singular-121.html",
+      "target": "content/news-details/release-of-singular-121.md",
+      "url": "/index.php/news/release-of-singular-121.html",
+      "title": "Release of SINGULAR 1.2.1",
+      "bytes": 9956
+    },
+    {
+      "source": "index.php/news/release-of-singular-122.html",
+      "target": "content/news-details/release-of-singular-122.md",
+      "url": "/index.php/news/release-of-singular-122.html",
+      "title": "Release of SINGULAR 1.2.2",
+      "bytes": 9956
+    },
+    {
+      "source": "index.php/news/release-of-singular-137.html",
+      "target": "content/news-details/release-of-singular-137.md",
+      "url": "/index.php/news/release-of-singular-137.html",
+      "title": "Release of SINGULAR 1.3.7",
+      "bytes": 9996
+    },
+    {
+      "source": "index.php/news/release-of-singular-138.html",
+      "target": "content/news-details/release-of-singular-138.md",
+      "url": "/index.php/news/release-of-singular-138.html",
+      "title": "Release of SINGULAR 1.3.8",
+      "bytes": 10166
+    },
+    {
+      "source": "index.php/news/release-of-singular-200-for-unix.html",
+      "target": "content/news-details/release-of-singular-200-for-unix.md",
+      "url": "/index.php/news/release-of-singular-200-for-unix.html",
+      "title": "Release of SINGULAR 2.0.0 for Unix",
+      "bytes": 10085
+    },
+    {
+      "source": "index.php/news/release-of-singular-200-for-windows-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-200-for-windows-a-mac-powerpc.md",
+      "url": "/index.php/news/release-of-singular-200-for-windows-a-mac-powerpc.html",
+      "title": "Release of SINGULAR 2.0.0 for Windows & Mac PowerPC",
+      "bytes": 10174
+    },
+    {
+      "source": "index.php/news/release-of-singular-204-for-unix-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-204-for-unix-a-mac-powerpc.md",
+      "url": "/index.php/news/release-of-singular-204-for-unix-a-mac-powerpc.html",
+      "title": "Update of SINGULAR 2.0.4 for Unix & Mac PowerPC",
+      "bytes": 10148
+    },
+    {
+      "source": "index.php/news/release-of-singular-205-for-unix-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-205-for-unix-a-mac-powerpc.md",
+      "url": "/index.php/news/release-of-singular-205-for-unix-a-mac-powerpc.html",
+      "title": "Release of SINGULAR 2.0.5 for Unix & Mac PowerPC",
+      "bytes": 10151
+    },
+    {
+      "source": "index.php/news/release-of-singular-3-1-2.html",
+      "target": "content/news-details/release-of-singular-3-1-2.md",
+      "url": "/index.php/news/release-of-singular-3-1-2.html",
+      "title": "Release of SINGULAR 3-1-2",
+      "bytes": 28671
+    },
+    {
+      "source": "index.php/news/release-of-singular-3-1-3.html",
+      "target": "content/news-details/release-of-singular-3-1-3.md",
+      "url": "/index.php/news/release-of-singular-3-1-3.html",
+      "title": "Release of SINGULAR 3-1-3",
+      "bytes": 16638
+    },
+    {
+      "source": "index.php/news/release-of-singular-3-1-4.html",
+      "target": "content/news-details/release-of-singular-3-1-4.md",
+      "url": "/index.php/news/release-of-singular-3-1-4.html",
+      "title": "Release of SINGULAR 3-1-4",
+      "bytes": 13111
+    },
+    {
+      "source": "index.php/news/release-of-singular-3-1-5.html",
+      "target": "content/news-details/release-of-singular-3-1-5.md",
+      "url": "/index.php/news/release-of-singular-3-1-5.html",
+      "title": "Release of SINGULAR 3-1-5",
+      "bytes": 22138
+    },
+    {
+      "source": "index.php/news/release-of-singular-3-1-6.html",
+      "target": "content/news-details/release-of-singular-3-1-6.md",
+      "url": "/index.php/news/release-of-singular-3-1-6.html",
+      "title": "Release of SINGULAR 3-1-6",
+      "bytes": 19058
+    },
+    {
+      "source": "index.php/news/release-of-singular-300-for-macos-x.html",
+      "target": "content/news-details/release-of-singular-300-for-macos-x.md",
+      "url": "/index.php/news/release-of-singular-300-for-macos-x.html",
+      "title": "Release of SINGULAR 3.0.0 for MacOS X",
+      "bytes": 10239
+    },
+    {
+      "source": "index.php/news/release-of-singular-300-for-unix.html",
+      "target": "content/news-details/release-of-singular-300-for-unix.md",
+      "url": "/index.php/news/release-of-singular-300-for-unix.html",
+      "title": "Release of SINGULAR 3.0.0 for Unix",
+      "bytes": 11741
+    },
+    {
+      "source": "index.php/news/release-of-singular-300-for-windows.html",
+      "target": "content/news-details/release-of-singular-300-for-windows.md",
+      "url": "/index.php/news/release-of-singular-300-for-windows.html",
+      "title": "Release of SINGULAR 3.0.0 for Windows",
+      "bytes": 10189
+    },
+    {
+      "source": "index.php/news/release-of-singular-301-for-unix.html",
+      "target": "content/news-details/release-of-singular-301-for-unix.md",
+      "url": "/index.php/news/release-of-singular-301-for-unix.html",
+      "title": "Release of SINGULAR 3.0.1 for UNIX",
+      "bytes": 10981
+    },
+    {
+      "source": "index.php/news/release-of-singular-301.html",
+      "target": "content/news-details/release-of-singular-301.md",
+      "url": "/index.php/news/release-of-singular-301.html",
+      "title": "Release of SINGULAR 3.0.1 for Windows and MacOS",
+      "bytes": 10994
+    },
+    {
+      "source": "index.php/news/release-of-singular-302.html",
+      "target": "content/news-details/release-of-singular-302.md",
+      "url": "/index.php/news/release-of-singular-302.html",
+      "title": "Release of SINGULAR 3-0-2",
+      "bytes": 11533
+    },
+    {
+      "source": "index.php/news/release-of-singular-303.html",
+      "target": "content/news-details/release-of-singular-303.md",
+      "url": "/index.php/news/release-of-singular-303.html",
+      "title": "Release of SINGULAR 3-0-3",
+      "bytes": 17320
+    },
+    {
+      "source": "index.php/news/release-of-singular-311.html",
+      "target": "content/news-details/release-of-singular-311.md",
+      "url": "/index.php/news/release-of-singular-311.html",
+      "title": "Release of SINGULAR 3-1-1",
+      "bytes": 11437
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-0-0.html",
+      "target": "content/news-details/release-of-singular-4-0-0.md",
+      "url": "/index.php/news/release-of-singular-4-0-0.html",
+      "title": "Release of SINGULAR 4-0-0",
+      "bytes": 18626
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-0-1.html",
+      "target": "content/news-details/release-of-singular-4-0-1.md",
+      "url": "/index.php/news/release-of-singular-4-0-1.html",
+      "title": "Release of SINGULAR 4-0-1",
+      "bytes": 10858
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-0-2.html",
+      "target": "content/news-details/release-of-singular-4-0-2.md",
+      "url": "/index.php/news/release-of-singular-4-0-2.html",
+      "title": "Release of SINGULAR 4-0-2",
+      "bytes": 12731
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-1-0.html",
+      "target": "content/news-details/release-of-singular-4-1-0.md",
+      "url": "/index.php/news/release-of-singular-4-1-0.html",
+      "title": "Release of SINGULAR 4-1-0",
+      "bytes": 14066
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-1-1.html",
+      "target": "content/news-details/release-of-singular-4-1-1.md",
+      "url": "/index.php/news/release-of-singular-4-1-1.html",
+      "title": "Release of SINGULAR 4-1-1",
+      "bytes": 13568
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-1-2.html",
+      "target": "content/news-details/release-of-singular-4-1-2.md",
+      "url": "/index.php/news/release-of-singular-4-1-2.html",
+      "title": "Release of SINGULAR 4-1-2",
+      "bytes": 12809
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-1-3.html",
+      "target": "content/news-details/release-of-singular-4-1-3.md",
+      "url": "/index.php/news/release-of-singular-4-1-3.html",
+      "title": "Release of SINGULAR 4-1-3",
+      "bytes": 11611
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-2-0.html",
+      "target": "content/news-details/release-of-singular-4-2-0.md",
+      "url": "/index.php/news/release-of-singular-4-2-0.html",
+      "title": "Release of SINGULAR 4-2-0",
+      "bytes": 12178
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-2-1.html",
+      "target": "content/news-details/release-of-singular-4-2-1.md",
+      "url": "/index.php/news/release-of-singular-4-2-1.html",
+      "title": "Release of SINGULAR 4-2-1",
+      "bytes": 11017
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-3-0.html",
+      "target": "content/news-details/release-of-singular-4-3-0.md",
+      "url": "/index.php/news/release-of-singular-4-3-0.html",
+      "title": "Release of SINGULAR 4-3-0",
+      "bytes": 11639
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-3-1.html",
+      "target": "content/news-details/release-of-singular-4-3-1.md",
+      "url": "/index.php/news/release-of-singular-4-3-1.html",
+      "title": "Release of SINGULAR 4-3-1",
+      "bytes": 9973
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-3-2.html",
+      "target": "content/news-details/release-of-singular-4-3-2.md",
+      "url": "/index.php/news/release-of-singular-4-3-2.html",
+      "title": "Release of SINGULAR 4-3-2",
+      "bytes": 9890
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-4-0.html",
+      "target": "content/news-details/release-of-singular-4-4-0.md",
+      "url": "/index.php/news/release-of-singular-4-4-0.html",
+      "title": "Release of SINGULAR 4-4-0",
+      "bytes": 9712
+    },
+    {
+      "source": "index.php/news/release-of-singular-4-4-1.html",
+      "target": "content/news-details/release-of-singular-4-4-1.md",
+      "url": "/index.php/news/release-of-singular-4-4-1.html",
+      "title": "Release of SINGULAR 4-4-1",
+      "bytes": 9712
+    },
+    {
+      "source": "index.php/news/release-of-singular-v3101.html",
+      "target": "content/news-details/release-of-singular-v3101.md",
+      "url": "/index.php/news/release-of-singular-v3101.html",
+      "title": "Release of SINGULAR 3-1-0-1",
+      "bytes": 15774
+    },
+    {
+      "source": "index.php/news/release-of-singular-v3106.html",
+      "target": "content/news-details/release-of-singular-v3106.md",
+      "url": "/index.php/news/release-of-singular-v3106.html",
+      "title": "Release of SINGULAR 3-1-0-6",
+      "bytes": 10104
+    },
+    {
+      "source": "index.php/news/release-of-singular-version-304.html",
+      "target": "content/news-details/release-of-singular-version-304.md",
+      "url": "/index.php/news/release-of-singular-version-304.html",
+      "title": "Release of SINGULAR 3-0-4",
+      "bytes": 11413
+    },
+    {
+      "source": "index.php/news/singular-121-available-on-cd.html",
+      "target": "content/news-details/singular-121-available-on-cd.md",
+      "url": "/index.php/news/singular-121-available-on-cd.html",
+      "title": "SINGULAR 1.2.1 available on CD",
+      "bytes": 10290
+    },
+    {
+      "source": "index.php/news/singular-for-windows-in-cygwin-repository.html",
+      "target": "content/news-details/singular-for-windows-in-cygwin-repository.md",
+      "url": "/index.php/news/singular-for-windows-in-cygwin-repository.html",
+      "title": "SINGULAR for Windows in Cygwin repository",
+      "bytes": 10490
+    },
+    {
+      "source": "index.php/news/singular-on-knoppix.html",
+      "target": "content/news-details/singular-on-knoppix.md",
+      "url": "/index.php/news/singular-on-knoppix.html",
+      "title": "SINGULAR on Knoppix",
+      "bytes": 9860
+    },
+    {
+      "source": "index.php/news/singular-textbook-nearly-finished.html",
+      "target": "content/news-details/singular-textbook-nearly-finished.md",
+      "url": "/index.php/news/singular-textbook-nearly-finished.html",
+      "title": "SINGULAR textbook nearly finished",
+      "bytes": 10115
+    },
+    {
+      "source": "index.php/news/singular-textbook-published.html",
+      "target": "content/news-details/singular-textbook-published.md",
+      "url": "/index.php/news/singular-textbook-published.html",
+      "title": "SINGULAR textbook published",
+      "bytes": 10183
+    },
+    {
+      "source": "index.php/news/singular-user-meeting-at-mega-2009.html",
+      "target": "content/news-details/singular-user-meeting-at-mega-2009.md",
+      "url": "/index.php/news/singular-user-meeting-at-mega-2009.html",
+      "title": "SINGULAR User Meeting at MEGA 2009",
+      "bytes": 10515
+    },
+    {
+      "source": "index.php/news/singular-web-site-online.html",
+      "target": "content/news-details/singular-web-site-online.md",
+      "url": "/index.php/news/singular-web-site-online.html",
+      "title": "SINGULAR web site online",
+      "bytes": 9919
+    },
+    {
+      "source": "index.php/news/windows-version-of-singular-3106-now-available.html",
+      "target": "content/news-details/windows-version-of-singular-3106-now-available.md",
+      "url": "/index.php/news/windows-version-of-singular-3106-now-available.html",
+      "title": "Windows version of SINGULAR 3.1.0.6 now available",
+      "bytes": 10729
+    },
+    {
+      "source": "index.php/news.html",
+      "target": "content/legacy/news.md",
+      "url": "/index.php/news.html",
+      "title": "Singular",
+      "bytes": 23747
+    },
+    {
+      "source": "index.php/news2.html",
+      "target": "content/legacy-index/news2.md",
+      "url": "/index.php/news2.html",
+      "title": "Singular",
+      "bytes": 22782
+    },
+    {
+      "source": "index.php/publications/101.html",
+      "target": "content/legacy-index/publications--101.md",
+      "url": "/index.php/publications/101.html",
+      "title": "Table of contents: \"Computing in Algebraic Geometry - A Quick Start using Singular\"",
+      "bytes": 14800
+    },
+    {
+      "source": "index.php/publications/102.html",
+      "target": "content/legacy-index/publications--102.md",
+      "url": "/index.php/publications/102.html",
+      "title": "Singular Code: \"Computing in Algebraic Geometry - A Quick Start using Singular\"",
+      "bytes": 10981
+    },
+    {
+      "source": "index.php/publications/92.html",
+      "target": "content/legacy-index/publications--92.md",
+      "url": "/index.php/publications/92.html",
+      "title": "SINGULAR related Publications",
+      "bytes": 154060
+    },
+    {
+      "source": "index.php/publications/97.html",
+      "target": "content/legacy-index/publications--97.md",
+      "url": "/index.php/publications/97.html",
+      "title": "A Singular Introduction to Commutative Algebra",
+      "bytes": 13009
+    },
+    {
+      "source": "index.php/publications/98.html",
+      "target": "content/legacy-index/publications--98.md",
+      "url": "/index.php/publications/98.html",
+      "title": "Table of contents: \"A Singular Introduction to Commutative Algebra\"",
+      "bytes": 24121
+    },
+    {
+      "source": "index.php/publications/a-singular-introduction-to-commutative-algebra.html",
+      "target": "content/legacy-index/publications--a-singular-introduction-to-commutative-algebra.md",
+      "url": "/index.php/publications/a-singular-introduction-to-commutative-algebra.html",
+      "title": "A Singular Introduction to Commutative Algebra",
+      "bytes": 13185
+    },
+    {
+      "source": "index.php/publications/computing-in-algebraic-geometry.html",
+      "target": "content/legacy-index/publications--computing-in-algebraic-geometry.md",
+      "url": "/index.php/publications/computing-in-algebraic-geometry.html",
+      "title": "Computing in Algebraic Geometry: A Quick Start using Singular",
+      "bytes": 11647
+    },
+    {
+      "source": "index.php/publications/singular-related-publications.html",
+      "target": "content/stubs/publications-related.md",
+      "url": "/index.php/publications/singular-related-publications.html",
+      "title": "SINGULAR related Publications",
+      "bytes": 153768
+    },
+    {
+      "source": "index.php/publications/upload-publications.html",
+      "target": "content/stubs/publications-upload.md",
+      "url": "/index.php/publications/upload-publications.html",
+      "title": "Upload Publications",
+      "bytes": 13990
+    },
+    {
+      "source": "index.php/publications.html",
+      "target": "content/legacy/publications.md",
+      "url": "/index.php/publications.html",
+      "title": "Publications",
+      "bytes": 10148
+    },
+    {
+      "source": "index.php/singular-books.html",
+      "target": "content/legacy/singular-book.md",
+      "url": "/index.php/singular-books.html",
+      "title": "Textbooks featuring Singular",
+      "bytes": 10525
+    },
+    {
+      "source": "index.php/singular-download/109.html",
+      "target": "content/legacy-index/singular-download--109.md",
+      "url": "/index.php/singular-download/109.html",
+      "title": "Install Singular 4-x-x on a Linux/Unix platform (Generic Installation)",
+      "bytes": 23657
+    },
+    {
+      "source": "index.php/singular-download/110.html",
+      "target": "content/legacy-index/singular-download--110.md",
+      "url": "/index.php/singular-download/110.html",
+      "title": "Install Singular 4.x.x on a Linux/Unix platform (via APT/DEB)",
+      "bytes": 13428
+    },
+    {
+      "source": "index.php/singular-download/13715.html",
+      "target": "content/legacy-index/singular-download--13715.md",
+      "url": "/index.php/singular-download/13715.html",
+      "title": "Install Singular 4.x.x on a Linux/Unix platform (via emerge)",
+      "bytes": 9894
+    },
+    {
+      "source": "index.php/singular-download/install-linuxunix.html",
+      "target": "content/legacy-index/singular-download--install-linuxunix.md",
+      "url": "/index.php/singular-download/install-linuxunix.html",
+      "title": "Install Singular 4-x-x on a Linux/Unix platform",
+      "bytes": 10844
+    },
+    {
+      "source": "index.php/singular-download/install-os-x.html",
+      "target": "content/legacy-index/singular-download--install-os-x.md",
+      "url": "/index.php/singular-download/install-os-x.html",
+      "title": "Install Singular 4-x-x on an OS X Platform",
+      "bytes": 12637
+    },
+    {
+      "source": "index.php/singular-download/install-windows.html",
+      "target": "content/legacy-index/singular-download--install-windows.md",
+      "url": "/index.php/singular-download/install-windows.html",
+      "title": "Install Singular 4-x-x on a Microsoft Windows Platform",
+      "bytes": 12557
+    },
+    {
+      "source": "index.php/singular-download.html",
+      "target": "content/stubs/download.md",
+      "url": "/index.php/singular-download.html",
+      "title": "Download SINGULAR Binaries",
+      "bytes": 13512
+    },
+    {
+      "source": "index.php/singular-manual.html",
+      "target": "content/stubs/manual.md",
+      "url": "/index.php/singular-manual.html",
+      "title": "Online Manual",
+      "bytes": 10997
+    },
+    {
+      "source": "index.php/singular-report-bugs.html",
+      "target": "content/stubs/report-bugs.md",
+      "url": "/index.php/singular-report-bugs.html",
+      "title": "How to report bugs in SINGULAR",
+      "bytes": 10995
+    },
+    {
+      "source": "index.php/source-code.html",
+      "target": "content/stubs/source-code.md",
+      "url": "/index.php/source-code.html",
+      "title": "Singular Source Code",
+      "bytes": 10836
+    },
+    {
+      "source": "index.php/third-party-software/13692.html",
+      "target": "content/stubs/third-party-software-detail.md",
+      "url": "/index.php/third-party-software/13692.html",
+      "title": "Software used by Singular",
+      "bytes": 11370
+    },
+    {
+      "source": "index.php/third-party-software/software-used-by-singular.html",
+      "target": "content/legacy-index/third-party-software--software-used-by-singular.md",
+      "url": "/index.php/third-party-software/software-used-by-singular.html",
+      "title": "Software used by Singular",
+      "bytes": 11280
+    },
+    {
+      "source": "index.php/third-party-software/software-using-singular.html",
+      "target": "content/legacy-index/third-party-software--software-using-singular.md",
+      "url": "/index.php/third-party-software/software-using-singular.html",
+      "title": "Software using Singular (or parts of it)",
+      "bytes": 9748
+    },
+    {
+      "source": "index.php/third-party-software.html",
+      "target": "content/stubs/third-party-software.md",
+      "url": "/index.php/third-party-software.html",
+      "title": "Third-party software",
+      "bytes": 10336
+    },
+    {
+      "source": "GP_BOOK_EXAMPLES.html",
+      "target": "content/legacy/gp-book-examples.md",
+      "url": "/GP_BOOK_EXAMPLES.html",
+      "title": "Index of /GP_BOOK_EXAMPLES",
+      "bytes": 34422
+    },
+    {
+      "source": "Singular-book.html",
+      "target": "content/legacy/singular-book-legacy.md",
+      "url": "/Singular-book.html",
+      "title": "\"A Singular Introduction to Commutative Algebra\"",
+      "bytes": 6146
+    },
+    {
+      "source": "zca.1.html",
+      "target": "content/legacy/zca.md",
+      "url": "/zca.1.html",
+      "title": "Willkommen",
+      "bytes": 1605
+    },
+    {
+      "source": "search.html",
+      "target": "content/legacy/search.md",
+      "url": "/search.html",
+      "title": "Singular",
+      "bytes": 10410
+    }
+  ],
+  "zero_byte_files": [
+    "forum/posting.php?mode=reply&f=10&t=1623.html",
+    "forum/report.php?f=10&p=4426.html",
+    "plugins/editors/tinymce/jscripts/tiny_mce/plugins/cleanup/editor_plugin.js",
+    "print.css",
+    "templates/beez/params.ini"
+  ]
+}

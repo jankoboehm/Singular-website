@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $titleText := lower (plainify .Title) }}
+{{ $genericDescriptions := slice "singular - an open source computer algebra system" "publications" "singular related publications" "upload publications" "singular, funding" "singular, history" "singular, jenks price" }}
+<article class="page">
+  <header class="page__header">
+    <p class="eyebrow">{{ .Params.eyebrow | default "Singular computer algebra system" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+      {{ $descriptionText := lower (plainify .) }}
+      {{ if and (ne $descriptionText $titleText) (not (in $genericDescriptions $descriptionText)) }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ end }}
+    {{ with .Params.migration_note }}<div class="notice"><strong>Migration note:</strong> {{ . | markdownify }}</div>{{ end }}
+  </header>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{ partial "legacy-source-link.html" . }}
+</article>
+{{ end }}

@@ -1,0 +1,4 @@
+{{ with .Params.legacy_source }}
+  {{ $href := printf "/old/%s" . }}
+  <p class="legacy-note">Original page in the preserved old site: <a href="{{ $href }}">{{ . }}</a>.</p>
+{{ end }}

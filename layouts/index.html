@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero__content">
+    <p class="eyebrow">Computer algebra system</p>
+    <h1 class="hero__title-logo"><img src="/Images/singular-logo.svg" alt="{{ .Title }}" class="hero__logo"></h1>
+    <p class="lead">{{ .Site.Params.description }}</p>
+    <div class="hero__actions">
+      <a class="button" href="/index.php/singular-download.html">Download Singular</a>
+      <a class="button button--secondary" href="/index.php/singular-manual.html">Read the manual</a>
+    </div>
+  </div>
+</section>
+<section class="quick-links" aria-label="Key sections">
+  <a class="card" href="/index.php/publications.html"><strong>Publications</strong><span>Search, view, or submit Singular-related publications.</span></a>
+  <a class="card" href="/index.php/singular-report-bugs.html"><strong>Report bugs</strong><span>Send precise reports for Singular issues and regressions.</span></a>
+  <a class="card" href="/discussions/"><strong>Discussions</strong><span>Use GitHub Discussions for questions and support.</span></a>
+</section>
+<section class="home-notices" aria-label="Notices">
+  <div class="memorial-notice"><table>
+    <tr>
+      <td><p><b>To all Singular users and friends, unfortunately, we have some sad news to share:</b><br><br>
+Hans Schönemann passed away on December 28th, 2025. Hans was a well-established expert in the computer algebra community whose advice was frequently sought. He was central to the Singular development from the beginning, and a good friend. <br>
+His death is a great loss.<br>
+--<br>
+Gert-Martin Greuel, Gerhard Pfister, and Wolfram Decker
+</p></td>
+      <td><img src="/old/Hans.png" alt="Hans Schönemann"></td>
+    </tr>
+  </table></div>
+  <div class="memorial-event"><p><b>In honor of Hans Schönemann</b>, the conference <a href="/old/singalg2026/">Advances in Computer Algebra</a> will take place on June 10, 2026, at RPTU in Kaiserslautern. Topics include the role of computational algebraic geometry in theoretical physics, themes close to Hans’s work, including Singular, Zariski’s multiplicity conjecture, syzygy methods for Feynman integrals, SAGBI bases, comprehensive Gröbner systems, and singularities.</p></div>
+</section>
+<article class="page page--home">
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{ partial "legacy-source-link.html" . }}
+</article>
+{{ end }}

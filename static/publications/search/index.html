@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Singular publications</title>
+  <style>
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;color:#152033;background:#e9f5fa;line-height:1.55}
+    header{background:#006699;border-bottom:1px solid #004d73;box-shadow:0 8px 24px rgba(0,70,105,.14);z-index:5}
+    .header-inner{max-width:1160px;margin:0 auto;padding:.95rem 1rem;display:flex;flex-direction:column;align-items:stretch;gap:.72rem}
+    .brand{display:inline-flex;align-items:center;justify-content:flex-start;text-decoration:none;padding-left:.45rem;padding-bottom:.7rem}
+    .brand img{width:205px;max-height:69px}
+    nav{display:grid;gap:.05rem;border-top:1px solid rgba(255,255,255,.55);padding-top:.68rem}
+    .nav-cartouche{display:grid;gap:.55rem}
+    .nav-cartouche nav{border-top:0;padding-top:0;gap:.16rem}.nav-cartouche nav+nav{border-top:1px solid rgba(255,255,255,.55);padding-top:.56rem}
+    nav a,.support-note a{text-decoration:none;color:#fff;font-weight:700;font-size:1.25rem;line-height:1.2;padding:.26rem .45rem;border-radius:.5rem}
+    nav a:hover,.support-note a:hover{background:rgba(255,255,255,.16);color:#fff}
+    .header-bottom{display:grid;gap:.46rem;margin-top:.2rem;color:rgba(255,255,255,.82)}
+    .legal-nav a,.support-note a,.copyright-note{padding-left:0;padding-right:0;font-size:.88rem}
+    .support-note,.copyright-note{margin:0;line-height:1.35}.support-note a{display:block;padding-top:.2rem;padding-bottom:.2rem}
+    @media(min-width:980px){body{padding-left:280px}header{position:fixed;inset:.75rem auto .75rem .75rem;width:calc(280px - 1.5rem);height:calc(100vh - 1.5rem);overflow-y:auto;border:1px solid #004d73;border-radius:1.15rem;box-shadow:0 28px 62px rgba(0,32,54,.36),0 8px 18px rgba(0,32,54,.24)}.header-inner{max-width:none;min-height:100%;margin:0;padding:.8rem .85rem}.header-bottom{margin-top:auto}}
+    @media(max-width:820px){.brand{justify-content:flex-start}.brand img{width:190px;max-height:64px}}
+    main{max-width:1040px;margin:0 auto;padding:2rem 1rem 4rem}
+    a{color:#0b4e8a}.search{display:flex;gap:.75rem;flex-wrap:wrap;margin:1.25rem 0}
+    input{flex:1 1 24rem;min-height:2.7rem;border:1px solid #b8c6d8;border-radius:.45rem;padding:.5rem .7rem;font:inherit}
+    button{min-height:2.7rem;border:1px solid #0b4e8a;border-radius:.45rem;background:#0b4e8a;color:white;font:inherit;font-weight:700;padding:.45rem .9rem}
+    .result{background:white;border:1px solid #d9e1ec;border-radius:.5rem;padding:1rem;margin:.75rem 0;box-shadow:0 18px 44px rgba(0,32,54,.32),0 4px 12px rgba(0,32,54,.2)}
+    .result h2{font-size:1rem;margin:0 0 .35rem}.result p{margin:.35rem 0 0}.meta{color:#5e6b7e}
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="Singular home"><img src="/Images/singular-logo-white.svg" alt="Singular"></a>
+    <div class="nav-cartouche">
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="/index.php/singular-manual.html">Manual</a>
+        <a href="/index.php/singular-download.html">Download</a>
+        <a href="https://github.com/Singular/Singular/discussions">Discussions</a>
+        <a href="/index.php/singular-report-bugs.html">Report Issues</a>
+      </nav>
+      <nav class="secondary-nav" aria-label="Singular tools and resources">
+        <a href="/index.php/news.html">News</a>
+        <a href="/index.php/source-code.html">Contribute</a>
+        <a href="/index.php/publications.html">Publications</a>
+        <a href="/index.php/singular-books.html">Books</a>
+        <a href="/index.php/graphical-interface.html">Jupyter Interface</a>
+        <a href="https://www.singular.uni-kl.de:8003/" target="_blank" rel="noopener">Try Online</a>
+        <a href="https://www.mathematik.uni-kl.de/~boehm/singulargpispace/" target="_blank" rel="noopener">Singular/GPI-Space</a>
+      </nav>
+    </div>
+    <div class="header-bottom">
+      <nav class="legal-nav" aria-label="Institutional links">
+        <a href="mailto:singular@rptu.de">Contact</a>
+        <a href="https://rptu.de/en/imprint">Impressum</a>
+        <a href="https://rptu.de/en/privacy">Datenschutzerklärung</a>
+      </nav>
+      <p class="support-note"><a href="https://www.computeralgebra.de/sfb/">Supported by SFB-TRR 195</a></p>
+      <p class="copyright-note">Copyright 1990-2026 Singular group</p>
+    </div>
+  </div>
+</header>
+<main>
+  <p><a href="/index.php/publications.html">Publications</a> / <a href="/index.php/publications/singular-related-publications.html">Publication database</a></p>
+  <h1>Search Singular publications</h1>
+  <form class="search" id="search-form">
+    <input id="q" type="search" autocomplete="off" autofocus placeholder="Author, title, journal, year, keyword">
+    <button type="submit">Search</button>
+  </form>
+  <p class="meta" id="status">Loading static index...</p>
+  <div id="results"></div>
+</main>
+<script>
+let records = [];
+const statusEl = document.getElementById("status");
+const resultsEl = document.getElementById("results");
+const inputEl = document.getElementById("q");
+
+function esc(value) {
+  const chars = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+  return String(value).replace(/[&<>"']/g, c => chars[c]);
+}
+
+function search(query) {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) {
+    resultsEl.innerHTML = "";
+    statusEl.textContent = `${records.length} publication entries indexed.`;
+    return;
+  }
+  const matches = [];
+  for (const item of records) {
+    const haystack = `${item.section} ${item.text}`.toLowerCase();
+    let score = 0;
+    for (const term of terms) {
+      if (!haystack.includes(term)) { score = 0; break; }
+      score += item.text.toLowerCase().startsWith(term) ? 4 : 1;
+    }
+    if (score) matches.push({ item, score });
+  }
+  matches.sort((a, b) => b.score - a.score || a.item.text.localeCompare(b.item.text));
+  const shown = matches.slice(0, 100);
+  statusEl.textContent = `${matches.length} match${matches.length === 1 ? "" : "es"} found.`;
+  resultsEl.innerHTML = shown.map(({ item }) => `
+    <article class="result">
+      <h2>${esc(item.section || "Publication")}</h2>
+      <p>${item.html}</p>
+    </article>`).join("");
+}
+
+fetch("../publications-index.json")
+  .then(response => response.json())
+  .then(data => {
+    records = data;
+    statusEl.textContent = `${records.length} publication entries indexed.`;
+    const initial = new URLSearchParams(location.search).get("q") || "";
+    inputEl.value = initial;
+    search(initial);
+  });
+
+document.getElementById("search-form").addEventListener("submit", event => {
+  event.preventDefault();
+  const query = inputEl.value.trim();
+  history.replaceState(null, "", query ? `?q=${encodeURIComponent(query)}` : location.pathname);
+  search(query);
+});
+inputEl.addEventListener("input", () => search(inputEl.value));
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+name: Check website
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Show Hugo version
+        run: hugo version
+
+      - name: Refresh static search indexes
+        run: python3 scripts/build_static_indexes.py --project .
+
+      - name: Build production output
+        run: hugo --environment production --minify --cleanDestinationDir
+
+      - name: Safety checks
+        run: scripts/check-production-output.sh public
+
+      - name: Internal link checks
+        run: scripts/check-output-links.py public
+
+      - name: Upload built site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: singular-site
+          path: public/
+          if-no-files-found: error
+          retention-days: 30

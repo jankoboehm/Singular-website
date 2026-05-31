@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="/" aria-label="Singular home">
+      <img src="/Images/singular-logo-white.svg" alt="Singular" class="brand__logo">
+      <span class="brand__text">Singular</span>
+    </a>
+    <div class="nav-cartouche">
+      <nav class="nav-group primary-nav" aria-label="Primary navigation">
+        {{ range .Site.Menus.main }}
+          <a href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <nav class="nav-group secondary-nav" aria-label="Singular tools and resources">
+        {{ range .Site.Menus.secondary }}
+          <a href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a>
+        {{ end }}
+      </nav>
+    </div>
+    <div class="site-header__bottom">
+      <nav class="nav-group legal-nav" aria-label="Institutional links">
+        <a href="mailto:singular@rptu.de">Contact</a>
+        <a href="https://rptu.de/en/imprint">Impressum</a>
+        <a href="https://rptu.de/en/privacy">Datenschutzerklärung</a>
+      </nav>
+      <p class="support-note"><a href="https://www.computeralgebra.de/sfb/">Supported by SFB-TRR 195</a></p>
+      <p class="copyright-note">Copyright 1990-2026 Singular group</p>
+    </div>
+  </div>
+</header>

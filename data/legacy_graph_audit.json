@@ -1,0 +1,1274 @@
+{
+  "root": "index.html",
+  "converted_nodes_crawled": 96,
+  "converted_edges": 1483,
+  "archive_links": 544,
+  "asset_links": 12,
+  "ftp_links": 19,
+  "external_links": 626,
+  "dynamic_links": [
+    "GP_BOOK_EXAMPLES/index.html%3FC=D%3BO=A.html",
+    "GP_BOOK_EXAMPLES/index.html%3FC=M%3BO=A.html",
+    "GP_BOOK_EXAMPLES/index.html%3FC=N%3BO=D.html",
+    "GP_BOOK_EXAMPLES/index.html%3FC=S%3BO=A.html",
+    "cgi-bin/formal-library-checker",
+    "cgi-bin/lib2doc",
+    "forum/viewforum.php%3Ff=10&sid=dd1a5dbb19a5db1d7d4a4856f20bb791.html",
+    "index.php%3Fformat=feed&type=atom",
+    "index.php%3Fformat=feed&type=rss",
+    "index.php/component/user/",
+    "index.php/component/user/remind.html",
+    "index.php/component/user/reset.html",
+    "index.php?option=com_content&view=article&id=13696&Itemid=34"
+  ],
+  "generated_only_links": [
+    "full&",
+    "index.php/component/content/100.html",
+    "index.php/events.html",
+    "index.php/events/sage-days-235.html",
+    "index.php/impressum.html",
+    "index.php/open-tasks.html",
+    "index.php/singular-devteams.html",
+    "index.php/singular-get-help.html",
+    "index.php/singular-join.html",
+    "present.html",
+    "support.html",
+    "team.html"
+  ],
+  "unconverted_local_links": [],
+  "missing_local_links": [],
+  "refs": {
+    "dynamic": {
+      "index.php%3Fformat=feed&type=rss": [
+        "index.html"
+      ],
+      "index.php%3Fformat=feed&type=atom": [
+        "index.html"
+      ],
+      "forum/viewforum.php%3Ff=10&sid=dd1a5dbb19a5db1d7d4a4856f20bb791.html": [
+        "index.html",
+        "index.php/background/funding.html",
+        "index.php/background/history.html",
+        "index.php/background/jenks-prize.html",
+        "index.php/component/content/article/13687.html",
+        "index.php/graphical-interface.html",
+        "index.php/how-to-cite-singular.html",
+        "index.php/internal.html",
+        "index.php/links.html",
+        "index.php/new-libraries.html",
+        "index.php/new-libraries/documentation-generator.html",
+        "index.php/new-libraries/formal-library-checker.html",
+        "index.php/new-libraries/not-distributed-experimental-libraries.html",
+        "index.php/new-libraries/tools-for-writing-libraries.html",
+        "index.php/news.html",
+        "index.php/news/jenks-price-awarded-to-singular-.html",
+        "index.php/news/new-singular-web-appearance.html",
+        "index.php/news/new-singular-web-site.html",
+        "index.php/news/new-world-record-by-singular-computation-.html",
+        "index.php/news/registration-for-sage-days-235-starts.html",
+        "index.php/news/release-of-singular-100.html",
+        "index.php/news/release-of-singular-120.html",
+        "index.php/news/release-of-singular-121.html",
+        "index.php/news/release-of-singular-122.html",
+        "index.php/news/release-of-singular-137.html",
+        "index.php/news/release-of-singular-138.html",
+        "index.php/news/release-of-singular-200-for-unix.html",
+        "index.php/news/release-of-singular-200-for-windows-a-mac-powerpc.html",
+        "index.php/news/release-of-singular-204-for-unix-a-mac-powerpc.html",
+        "index.php/news/release-of-singular-205-for-unix-a-mac-powerpc.html",
+        "index.php/news/release-of-singular-3-1-2.html",
+        "index.php/news/release-of-singular-3-1-3.html",
+        "index.php/news/release-of-singular-3-1-4.html",
+        "index.php/news/release-of-singular-3-1-5.html",
+        "index.php/news/release-of-singular-3-1-6.html",
+        "index.php/news/release-of-singular-300-for-macos-x.html",
+        "index.php/news/release-of-singular-300-for-unix.html",
+        "index.php/news/release-of-singular-300-for-windows.html",
+        "index.php/news/release-of-singular-301-for-unix.html",
+        "index.php/news/release-of-singular-301.html",
+        "index.php/news/release-of-singular-302.html",
+        "index.php/news/release-of-singular-303.html",
+        "index.php/news/release-of-singular-311.html",
+        "index.php/news/release-of-singular-4-0-0.html",
+        "index.php/news/release-of-singular-4-0-1.html",
+        "index.php/news/release-of-singular-4-0-2.html",
+        "index.php/news/release-of-singular-4-1-0.html",
+        "index.php/news/release-of-singular-4-1-1.html",
+        "index.php/news/release-of-singular-4-1-2.html",
+        "index.php/news/release-of-singular-4-1-3.html",
+        "index.php/news/release-of-singular-4-2-0.html",
+        "index.php/news/release-of-singular-4-2-1.html",
+        "index.php/news/release-of-singular-4-3-0.html",
+        "index.php/news/release-of-singular-4-3-1.html",
+        "index.php/news/release-of-singular-4-3-2.html",
+        "index.php/news/release-of-singular-4-4-0.html",
+        "index.php/news/release-of-singular-4-4-1.html",
+        "index.php/news/release-of-singular-v3101.html",
+        "index.php/news/release-of-singular-v3106.html",
+        "index.php/news/release-of-singular-version-304.html",
+        "index.php/news/singular-121-available-on-cd.html",
+        "index.php/news/singular-for-windows-in-cygwin-repository.html",
+        "index.php/news/singular-on-knoppix.html",
+        "index.php/news/singular-textbook-nearly-finished.html",
+        "index.php/news/singular-textbook-published.html",
+        "index.php/news/singular-user-meeting-at-mega-2009.html",
+        "index.php/news/singular-web-site-online.html",
+        "index.php/news/windows-version-of-singular-3106-now-available.html",
+        "index.php/publications.html",
+        "index.php/publications/101.html",
+        "index.php/publications/102.html",
+        "index.php/publications/92.html",
+        "index.php/publications/97.html",
+        "index.php/publications/98.html",
+        "index.php/publications/a-singular-introduction-to-commutative-algebra.html",
+        "index.php/publications/computing-in-algebraic-geometry.html",
+        "index.php/publications/singular-related-publications.html",
+        "index.php/publications/upload-publications.html",
+        "index.php/singular-books.html",
+        "index.php/singular-download.html",
+        "index.php/singular-download/109.html",
+        "index.php/singular-download/110.html",
+        "index.php/singular-download/13715.html",
+        "index.php/singular-download/install-linuxunix.html",
+        "index.php/singular-download/install-os-x.html",
+        "index.php/singular-download/install-windows.html",
+        "index.php/singular-manual.html",
+        "index.php/singular-report-bugs.html",
+        "index.php/source-code.html",
+        "index.php/third-party-software.html",
+        "index.php/third-party-software/13692.html",
+        "index.php/third-party-software/software-used-by-singular.html",
+        "index.php/third-party-software/software-using-singular.html",
+        "search.html"
+      ],
+      "index.php/component/user/": [
+        "index.php/internal.html"
+      ],
+      "index.php/component/user/reset.html": [
+        "index.php/internal.html"
+      ],
+      "index.php/component/user/remind.html": [
+        "index.php/internal.html"
+      ],
+      "index.php?option=com_content&view=article&id=13696&Itemid=34": [
+        "index.php/publications/upload-publications.html"
+      ],
+      "GP_BOOK_EXAMPLES/index.html%3FC=N%3BO=D.html": [
+        "GP_BOOK_EXAMPLES.html"
+      ],
+      "GP_BOOK_EXAMPLES/index.html%3FC=M%3BO=A.html": [
+        "GP_BOOK_EXAMPLES.html"
+      ],
+      "GP_BOOK_EXAMPLES/index.html%3FC=S%3BO=A.html": [
+        "GP_BOOK_EXAMPLES.html"
+      ],
+      "GP_BOOK_EXAMPLES/index.html%3FC=D%3BO=A.html": [
+        "GP_BOOK_EXAMPLES.html"
+      ],
+      "cgi-bin/formal-library-checker": [
+        "index.php/new-libraries/formal-library-checker.html"
+      ],
+      "cgi-bin/lib2doc": [
+        "index.php/new-libraries/documentation-generator.html"
+      ]
+    },
+    "generated-only": {
+      "index.php/singular-get-help.html": [
+        "search.html"
+      ],
+      "index.php/singular-devteams.html": [
+        "search.html"
+      ],
+      "index.php/singular-join.html": [
+        "search.html"
+      ],
+      "index.php/events.html": [
+        "search.html"
+      ],
+      "index.php/open-tasks.html": [
+        "search.html"
+      ],
+      "index.php/impressum.html": [
+        "Singular-book.html",
+        "search.html"
+      ],
+      "index.php/component/content/100.html": [
+        "index.php/background/history.html"
+      ],
+      "index.php/events/sage-days-235.html": [
+        "index.php/news/registration-for-sage-days-235-starts.html"
+      ],
+      "full&": [
+        "index.php/news/windows-version-of-singular-3106-now-available.html"
+      ],
+      "present.html": [
+        "Singular-book.html"
+      ],
+      "support.html": [
+        "Singular-book.html"
+      ],
+      "team.html": [
+        "Singular-book.html"
+      ]
+    }
+  },
+  "content_issues": [],
+  "comparisons": [
+    {
+      "old": "GP_BOOK_EXAMPLES.html",
+      "new_url": "/GP_BOOK_EXAMPLES.html",
+      "target": "content/legacy/gp-book-examples.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 155,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "Singular-book.html",
+      "new_url": "/Singular-book.html",
+      "target": "content/legacy/singular-book-legacy.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 6,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.html",
+      "new_url": "/",
+      "target": "content/_index.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/background/funding.html",
+      "new_url": "/index.php/background/funding.html",
+      "target": "content/stubs/funding.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 10,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/background/history.html",
+      "new_url": "/index.php/background/history.html",
+      "target": "content/legacy/history.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/background/jenks-prize.html",
+      "new_url": "/index.php/background/jenks-prize.html",
+      "target": "content/legacy/jenks-prize.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/component/content/article/13687.html",
+      "new_url": "/index.php/component/content/article/13687.html",
+      "target": "content/legacy-index/component--content--article--13687.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/graphical-interface.html",
+      "new_url": "/index.php/graphical-interface.html",
+      "target": "content/stubs/graphical-interface.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 8,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/how-to-cite-singular.html",
+      "new_url": "/index.php/how-to-cite-singular.html",
+      "target": "content/stubs/how-to-cite.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/internal.html",
+      "new_url": "/index.php/internal.html",
+      "target": "content/stubs/internal.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 4,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/links.html",
+      "new_url": "/index.php/links.html",
+      "target": "content/legacy/links.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 6,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/new-libraries.html",
+      "new_url": "/index.php/new-libraries.html",
+      "target": "content/stubs/new-libraries.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 4,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/new-libraries/documentation-generator.html",
+      "new_url": "/index.php/new-libraries/documentation-generator.html",
+      "target": "content/legacy-index/new-libraries--documentation-generator.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/new-libraries/formal-library-checker.html",
+      "new_url": "/index.php/new-libraries/formal-library-checker.html",
+      "target": "content/legacy-index/new-libraries--formal-library-checker.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/new-libraries/not-distributed-experimental-libraries.html",
+      "new_url": "/index.php/new-libraries/not-distributed-experimental-libraries.html",
+      "target": "content/legacy-index/new-libraries--not-distributed-experimental-libraries.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/new-libraries/tools-for-writing-libraries.html",
+      "new_url": "/index.php/new-libraries/tools-for-writing-libraries.html",
+      "target": "content/legacy-index/new-libraries--tools-for-writing-libraries.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news.html",
+      "new_url": "/index.php/news.html",
+      "target": "content/legacy/news.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 59,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/jenks-price-awarded-to-singular-.html",
+      "new_url": "/index.php/news/jenks-price-awarded-to-singular-.html",
+      "target": "content/news-details/jenks-price-awarded-to-singular-.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/new-singular-web-appearance.html",
+      "new_url": "/index.php/news/new-singular-web-appearance.html",
+      "target": "content/news-details/new-singular-web-appearance.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/new-singular-web-site.html",
+      "new_url": "/index.php/news/new-singular-web-site.html",
+      "target": "content/news-details/new-singular-web-site.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/new-world-record-by-singular-computation-.html",
+      "new_url": "/index.php/news/new-world-record-by-singular-computation-.html",
+      "target": "content/news-details/new-world-record-by-singular-computation-.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/registration-for-sage-days-235-starts.html",
+      "new_url": "/index.php/news/registration-for-sage-days-235-starts.html",
+      "target": "content/news-details/registration-for-sage-days-235-starts.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-100.html",
+      "new_url": "/index.php/news/release-of-singular-100.html",
+      "target": "content/news-details/release-of-singular-100.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-120.html",
+      "new_url": "/index.php/news/release-of-singular-120.html",
+      "target": "content/news-details/release-of-singular-120.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-121.html",
+      "new_url": "/index.php/news/release-of-singular-121.html",
+      "target": "content/news-details/release-of-singular-121.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-122.html",
+      "new_url": "/index.php/news/release-of-singular-122.html",
+      "target": "content/news-details/release-of-singular-122.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-137.html",
+      "new_url": "/index.php/news/release-of-singular-137.html",
+      "target": "content/news-details/release-of-singular-137.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-138.html",
+      "new_url": "/index.php/news/release-of-singular-138.html",
+      "target": "content/news-details/release-of-singular-138.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-200-for-unix.html",
+      "new_url": "/index.php/news/release-of-singular-200-for-unix.html",
+      "target": "content/news-details/release-of-singular-200-for-unix.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-200-for-windows-a-mac-powerpc.html",
+      "new_url": "/index.php/news/release-of-singular-200-for-windows-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-200-for-windows-a-mac-powerpc.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-204-for-unix-a-mac-powerpc.html",
+      "new_url": "/index.php/news/release-of-singular-204-for-unix-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-204-for-unix-a-mac-powerpc.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-205-for-unix-a-mac-powerpc.html",
+      "new_url": "/index.php/news/release-of-singular-205-for-unix-a-mac-powerpc.html",
+      "target": "content/news-details/release-of-singular-205-for-unix-a-mac-powerpc.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-3-1-2.html",
+      "new_url": "/index.php/news/release-of-singular-3-1-2.html",
+      "target": "content/news-details/release-of-singular-3-1-2.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 25,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-3-1-3.html",
+      "new_url": "/index.php/news/release-of-singular-3-1-3.html",
+      "target": "content/news-details/release-of-singular-3-1-3.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 8,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-3-1-4.html",
+      "new_url": "/index.php/news/release-of-singular-3-1-4.html",
+      "target": "content/news-details/release-of-singular-3-1-4.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-3-1-5.html",
+      "new_url": "/index.php/news/release-of-singular-3-1-5.html",
+      "target": "content/news-details/release-of-singular-3-1-5.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-3-1-6.html",
+      "new_url": "/index.php/news/release-of-singular-3-1-6.html",
+      "target": "content/news-details/release-of-singular-3-1-6.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 14,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-300-for-macos-x.html",
+      "new_url": "/index.php/news/release-of-singular-300-for-macos-x.html",
+      "target": "content/news-details/release-of-singular-300-for-macos-x.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-300-for-unix.html",
+      "new_url": "/index.php/news/release-of-singular-300-for-unix.html",
+      "target": "content/news-details/release-of-singular-300-for-unix.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 7,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-300-for-windows.html",
+      "new_url": "/index.php/news/release-of-singular-300-for-windows.html",
+      "target": "content/news-details/release-of-singular-300-for-windows.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-301-for-unix.html",
+      "new_url": "/index.php/news/release-of-singular-301-for-unix.html",
+      "target": "content/news-details/release-of-singular-301-for-unix.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-301.html",
+      "new_url": "/index.php/news/release-of-singular-301.html",
+      "target": "content/news-details/release-of-singular-301.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-302.html",
+      "new_url": "/index.php/news/release-of-singular-302.html",
+      "target": "content/news-details/release-of-singular-302.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 8,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-303.html",
+      "new_url": "/index.php/news/release-of-singular-303.html",
+      "target": "content/news-details/release-of-singular-303.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 39,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-311.html",
+      "new_url": "/index.php/news/release-of-singular-311.html",
+      "target": "content/news-details/release-of-singular-311.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-0-0.html",
+      "new_url": "/index.php/news/release-of-singular-4-0-0.html",
+      "target": "content/news-details/release-of-singular-4-0-0.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 15,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-0-1.html",
+      "new_url": "/index.php/news/release-of-singular-4-0-1.html",
+      "target": "content/news-details/release-of-singular-4-0-1.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-0-2.html",
+      "new_url": "/index.php/news/release-of-singular-4-0-2.html",
+      "target": "content/news-details/release-of-singular-4-0-2.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 21,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-1-0.html",
+      "new_url": "/index.php/news/release-of-singular-4-1-0.html",
+      "target": "content/news-details/release-of-singular-4-1-0.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 24,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-1-1.html",
+      "new_url": "/index.php/news/release-of-singular-4-1-1.html",
+      "target": "content/news-details/release-of-singular-4-1-1.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 24,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-1-2.html",
+      "new_url": "/index.php/news/release-of-singular-4-1-2.html",
+      "target": "content/news-details/release-of-singular-4-1-2.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 17,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-1-3.html",
+      "new_url": "/index.php/news/release-of-singular-4-1-3.html",
+      "target": "content/news-details/release-of-singular-4-1-3.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 12,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-2-0.html",
+      "new_url": "/index.php/news/release-of-singular-4-2-0.html",
+      "target": "content/news-details/release-of-singular-4-2-0.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 14,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-2-1.html",
+      "new_url": "/index.php/news/release-of-singular-4-2-1.html",
+      "target": "content/news-details/release-of-singular-4-2-1.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 8,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-3-0.html",
+      "new_url": "/index.php/news/release-of-singular-4-3-0.html",
+      "target": "content/news-details/release-of-singular-4-3-0.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 9,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-3-1.html",
+      "new_url": "/index.php/news/release-of-singular-4-3-1.html",
+      "target": "content/news-details/release-of-singular-4-3-1.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-3-2.html",
+      "new_url": "/index.php/news/release-of-singular-4-3-2.html",
+      "target": "content/news-details/release-of-singular-4-3-2.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-4-0.html",
+      "new_url": "/index.php/news/release-of-singular-4-4-0.html",
+      "target": "content/news-details/release-of-singular-4-4-0.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-4-4-1.html",
+      "new_url": "/index.php/news/release-of-singular-4-4-1.html",
+      "target": "content/news-details/release-of-singular-4-4-1.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-v3101.html",
+      "new_url": "/index.php/news/release-of-singular-v3101.html",
+      "target": "content/news-details/release-of-singular-v3101.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 36,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-v3106.html",
+      "new_url": "/index.php/news/release-of-singular-v3106.html",
+      "target": "content/news-details/release-of-singular-v3106.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/release-of-singular-version-304.html",
+      "new_url": "/index.php/news/release-of-singular-version-304.html",
+      "target": "content/news-details/release-of-singular-version-304.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 8,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-121-available-on-cd.html",
+      "new_url": "/index.php/news/singular-121-available-on-cd.html",
+      "target": "content/news-details/singular-121-available-on-cd.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-for-windows-in-cygwin-repository.html",
+      "new_url": "/index.php/news/singular-for-windows-in-cygwin-repository.html",
+      "target": "content/news-details/singular-for-windows-in-cygwin-repository.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-on-knoppix.html",
+      "new_url": "/index.php/news/singular-on-knoppix.html",
+      "target": "content/news-details/singular-on-knoppix.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-textbook-nearly-finished.html",
+      "new_url": "/index.php/news/singular-textbook-nearly-finished.html",
+      "target": "content/news-details/singular-textbook-nearly-finished.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-textbook-published.html",
+      "new_url": "/index.php/news/singular-textbook-published.html",
+      "target": "content/news-details/singular-textbook-published.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-user-meeting-at-mega-2009.html",
+      "new_url": "/index.php/news/singular-user-meeting-at-mega-2009.html",
+      "target": "content/news-details/singular-user-meeting-at-mega-2009.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/singular-web-site-online.html",
+      "new_url": "/index.php/news/singular-web-site-online.html",
+      "target": "content/news-details/singular-web-site-online.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/news/windows-version-of-singular-3106-now-available.html",
+      "new_url": "/index.php/news/windows-version-of-singular-3106-now-available.html",
+      "target": "content/news-details/windows-version-of-singular-3106-now-available.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications.html",
+      "new_url": "/index.php/publications.html",
+      "target": "content/legacy/publications.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/101.html",
+      "new_url": "/index.php/publications/101.html",
+      "target": "content/legacy-index/publications--101.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/102.html",
+      "new_url": "/index.php/publications/102.html",
+      "target": "content/legacy-index/publications--102.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 11,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/92.html",
+      "new_url": "/index.php/publications/92.html",
+      "target": "content/legacy-index/publications--92.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 570,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/97.html",
+      "new_url": "/index.php/publications/97.html",
+      "target": "content/legacy-index/publications--97.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 6,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/98.html",
+      "new_url": "/index.php/publications/98.html",
+      "target": "content/legacy-index/publications--98.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/a-singular-introduction-to-commutative-algebra.html",
+      "new_url": "/index.php/publications/a-singular-introduction-to-commutative-algebra.html",
+      "target": "content/legacy-index/publications--a-singular-introduction-to-commutative-algebra.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 6,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/computing-in-algebraic-geometry.html",
+      "new_url": "/index.php/publications/computing-in-algebraic-geometry.html",
+      "target": "content/legacy-index/publications--computing-in-algebraic-geometry.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/singular-related-publications.html",
+      "new_url": "/index.php/publications/singular-related-publications.html",
+      "target": "content/stubs/publications-related.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 570,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/publications/upload-publications.html",
+      "new_url": "/index.php/publications/upload-publications.html",
+      "target": "content/stubs/publications-upload.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-books.html",
+      "new_url": "/index.php/singular-books.html",
+      "target": "content/legacy/singular-book.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download.html",
+      "new_url": "/index.php/singular-download.html",
+      "target": "content/stubs/download.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 17,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/109.html",
+      "new_url": "/index.php/singular-download/109.html",
+      "target": "content/legacy-index/singular-download--109.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/110.html",
+      "new_url": "/index.php/singular-download/110.html",
+      "target": "content/legacy-index/singular-download--110.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 1,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/13715.html",
+      "new_url": "/index.php/singular-download/13715.html",
+      "target": "content/legacy-index/singular-download--13715.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/install-linuxunix.html",
+      "new_url": "/index.php/singular-download/install-linuxunix.html",
+      "target": "content/legacy-index/singular-download--install-linuxunix.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/install-os-x.html",
+      "new_url": "/index.php/singular-download/install-os-x.html",
+      "target": "content/legacy-index/singular-download--install-os-x.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 6,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-download/install-windows.html",
+      "new_url": "/index.php/singular-download/install-windows.html",
+      "target": "content/legacy-index/singular-download--install-windows.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-manual.html",
+      "new_url": "/index.php/singular-manual.html",
+      "target": "content/stubs/manual.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/singular-report-bugs.html",
+      "new_url": "/index.php/singular-report-bugs.html",
+      "target": "content/stubs/report-bugs.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/source-code.html",
+      "new_url": "/index.php/source-code.html",
+      "target": "content/stubs/source-code.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 5,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/third-party-software.html",
+      "new_url": "/index.php/third-party-software.html",
+      "target": "content/stubs/third-party-software.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 2,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/third-party-software/13692.html",
+      "new_url": "/index.php/third-party-software/13692.html",
+      "target": "content/stubs/third-party-software-detail.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/third-party-software/software-used-by-singular.html",
+      "new_url": "/index.php/third-party-software/software-used-by-singular.html",
+      "target": "content/legacy-index/third-party-software--software-used-by-singular.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 13,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "index.php/third-party-software/software-using-singular.html",
+      "new_url": "/index.php/third-party-software/software-using-singular.html",
+      "target": "content/legacy-index/third-party-software--software-using-singular.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 3,
+      "missing_links": [],
+      "missing_links_total": 0
+    },
+    {
+      "old": "search.html",
+      "new_url": "/search.html",
+      "target": "content/legacy/search.md",
+      "target_exists": true,
+      "status": "ok",
+      "text_coverage": 1.0,
+      "expected_links": 0,
+      "missing_links": [],
+      "missing_links_total": 0
+    }
+  ]
+}

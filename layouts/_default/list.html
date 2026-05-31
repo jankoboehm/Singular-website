@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $titleText := lower (plainify .Title) }}
+{{ $genericDescriptions := slice "singular - an open source computer algebra system" "publications" "singular related publications" "upload publications" "singular, funding" "singular, history" "singular, jenks price" }}
+<section class="page">
+  <header class="page__header">
+    <p class="eyebrow">{{ .Params.eyebrow | default "Singular computer algebra system" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+      {{ $descriptionText := lower (plainify .) }}
+      {{ if and (ne $descriptionText $titleText) (not (in $genericDescriptions $descriptionText)) }}<p class="lead">{{ . }}</p>{{ end }}
+    {{ end }}
+  </header>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  {{ if .Pages }}
+  <div class="listing">
+    {{ range .Pages.ByWeight }}
+    <a class="card" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong>{{ with .Description }}<span>{{ . }}</span>{{ end }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

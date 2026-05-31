@@ -1,0 +1,96 @@
+baseURL = "https://www.singular.uni-kl.de/"
+languageCode = "en-gb"
+title = "Singular"
+enableRobotsTXT = true
+timeZone = "Europe/Berlin"
+summaryLength = 40
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+  [[module.mounts]]
+    source = "static/Images"
+    target = "static/Images"
+  [[module.mounts]]
+    source = "static/_shared"
+    target = "static/_shared"
+  [[module.mounts]]
+    source = "static/assets"
+    target = "static/assets"
+  [[module.mounts]]
+    source = "static/publications"
+    target = "static/publications"
+
+[params]
+  description = "Singular is an open-source computer algebra system for polynomial computations."
+  siteName = "Singular"
+  productionDomain = "www.singular.uni-kl.de"
+  oldSitePath = "/old/"
+  archivePath = "/old/"
+  forumURL = "/old/forum/"
+  githubDiscussionsURL = "https://github.com/Singular/Singular/discussions"
+  publicationSearchURL = "/publications/search/"
+  publicationSubmitURL = "/publications/submit/"
+  publicationViewURL = "/publications/view/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Manual"
+    url = "/index.php/singular-manual.html"
+    weight = 10
+  [[menu.main]]
+    name = "Download"
+    url = "/index.php/singular-download.html"
+    weight = 20
+  [[menu.main]]
+    name = "Discussions"
+    url = "/discussions/"
+    weight = 30
+  [[menu.main]]
+    name = "Report Issues"
+    url = "/index.php/singular-report-bugs.html"
+    weight = 40
+
+  [[menu.secondary]]
+    name = "News"
+    url = "/index.php/news.html"
+    weight = 10
+  [[menu.secondary]]
+    name = "Contribute"
+    url = "/index.php/source-code.html"
+    weight = 20
+  [[menu.secondary]]
+    name = "Publications"
+    url = "/index.php/publications.html"
+    weight = 30
+  [[menu.secondary]]
+    name = "Books"
+    url = "/index.php/singular-books.html"
+    weight = 40
+  [[menu.secondary]]
+    name = "Jupyter Interface"
+    url = "/index.php/graphical-interface.html"
+    weight = 50
+  [[menu.secondary]]
+    name = "Try Online"
+    url = "https://www.singular.uni-kl.de:8003/"
+    weight = 60
+  [[menu.secondary]]
+    name = "Singular/GPI-Space"
+    url = "https://www.mathematik.uni-kl.de/~boehm/singulargpispace/"
+    weight = 70
