@@ -51,9 +51,18 @@ migration_status: "migrated from local legacy copy"
       Symbolic Tools in Mathematics and their Application.
     </div>
   </li>
+  <li class="funding-item">
+    <a class="funding-logo-link" href="https://rptu.de/projekte/symbtools" target="_blank" rel="noopener">
+      <img class="funding-logo funding-logo--symbtools" src="/Images/symbtools-logo.svg" alt="SymbTools logo" />
+    </a>
+    <div>
+      <strong><a href="https://rptu.de/forschung/forschungsinitiative-rlp" target="_blank" rel="noopener">Forschungsinitiative des Landes Rheinland-Pfalz</a></strong><br />
+      Singular is supported through <strong><a href="https://rptu.de/projekte/symbtools" target="_blank" rel="noopener">SymbTools - Symbolic Tools in Mathematics and Their Application</a></strong>.
+    </div>
+  </li>
 </ul>
 
-<h2>OSCAR</h2>
+<h2>Related project</h2>
 <ul class="funding-list">
   <li class="funding-item">
     <a class="funding-logo-link" href="https://www.oscar-system.org/" target="_blank" rel="noopener">

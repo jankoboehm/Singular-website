@@ -88,7 +88,7 @@ summaryLength = 40
     weight = 50
   [[menu.secondary]]
     name = "Try Online"
-    url = "https://www.singular.uni-kl.de:8003/"
+    url = "https://singular-in-browser.pages.dev"
     weight = 60
   [[menu.secondary]]
     name = "Singular/GPI-Space"

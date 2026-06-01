@@ -107,26 +107,97 @@ pre { overflow-x: auto; background: #101827; color: #eef5ff; padding: 1rem; bord
   display: grid;
   gap: 0.46rem;
   margin-top: 0.2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.34);
+  padding-top: 0.58rem;
   color: rgba(255, 255, 255, 0.82);
+}
+.site-header__bottom > * + * {
+  border-top: 1px solid rgba(255, 255, 255, 0.34);
+  padding-top: 0.58rem;
 }
 .legal-nav a,
 .support-note a,
 .copyright-note {
   padding-left: 0;
   padding-right: 0;
-  font-size: 0.88rem;
+  font-size: 0.78rem;
+  font-weight: 400;
 }
 .support-note,
 .copyright-note {
   margin: 0;
+  font-size: 0.78rem;
+  font-weight: 400;
   line-height: 1.35;
 }
-.support-note a {
+.support-note > a {
   display: block;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
-
+.support-note__inner,
+.support-note--with-logo > a,
+.support-note__funding-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.support-note--funding {
+  display: grid;
+  gap: 0.42rem;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+.support-note__heading {
+  margin: 0;
+}
+.support-note--with-logo img {
+  flex: 0 0 auto;
+  width: min(5.75rem, 100%);
+  max-height: 2.75rem;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 0.28rem;
+  padding: 0.18rem;
+}
+.support-note--with-logo img[src$="symbtools-logo.svg"] {
+  padding-left: 0.08rem;
+  padding-right: 0.32rem;
+}
+.support-note__text {
+  display: block;
+}
+.support-note--funding a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+.support-note--plain a {
+  display: inline;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.support-note--plain a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+.support-note--inline {
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 400;
+}
+.support-note--inline a {
+  display: inline;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.support-note--inline a:hover {
+  background: transparent;
+  text-decoration: underline;
+}
 .site-main { padding: 2rem 1.25rem 4rem; }
 .hero {
   background: linear-gradient(135deg, #ffffff 0%, #eaf4ff 100%);
@@ -241,16 +312,60 @@ pre { overflow-x: auto; background: #101827; color: #eef5ff; padding: 1rem; bord
   max-width: 100%;
   border-radius: 0.5rem;
 }
-.home-background-links {
+.home-oscar-logo {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.75rem 0 1.25rem;
+}
+.home-oscar-logo img {
+  width: 220px;
+  max-height: 86px;
+  object-fit: contain;
+}
+.home-funding-text {
+  margin: 1rem 0 0.45rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.home-funding-logos {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
   flex-wrap: wrap;
+  margin: 0 0 0.75rem;
+}
+.home-funding-logos a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 4.5rem;
+  padding: 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: #fff;
+}
+.home-funding-logos img {
+  width: 170px;
+  max-height: 72px;
+  object-fit: contain;
+}
+.home-funding-logos__symbtools {
+  width: 165px;
+  max-height: 72px;
+}
+.home-background-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
   margin: 1.25rem 0 0;
+  width: 100%;
 }
 .home-background-links a,
 .content a.wanted {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   min-height: 2.25rem;
   padding: 0.35rem 0.65rem;
   border: 1px solid var(--line);
@@ -258,6 +373,7 @@ pre { overflow-x: auto; background: #101827; color: #eef5ff; padding: 1rem; bord
   background: #fff;
   text-decoration: none;
   font-weight: 700;
+  text-align: center;
 }
 .content h2, .content h3 { line-height: 1.25; margin-top: 2rem; }
 .content table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; }
@@ -307,6 +423,10 @@ pre { overflow-x: auto; background: #101827; color: #eef5ff; padding: 1rem; bord
 }
 .funding-logo--oscar {
   width: 220px;
+}
+.funding-logo--symbtools {
+  width: 165px;
+  max-height: 98px;
 }
 .notice {
   border: 1px solid #ecd18c;
@@ -396,6 +516,7 @@ pre { overflow-x: auto; background: #101827; color: #eef5ff; padding: 1rem; bord
   .brand { justify-content: flex-start; }
   .brand__logo { width: 190px; max-height: 64px; }
   .quick-links, .listing, .pub-search-form, .form-grid { grid-template-columns: 1fr; }
+  .home-background-links { grid-template-columns: 1fr; }
   .memorial-notice table,
   .memorial-notice tbody,
   .memorial-notice tr,
