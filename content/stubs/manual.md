@@ -7,7 +7,7 @@ legacy_source: "index.php/singular-manual.html"
 migration_status: "migrated from local legacy copy"
 ---
 
-<p>The current documentation is work in progress and is generated from Singular help strings, libraries, commands, and runnable examples:</p>
+<p>The current documentation is work in progress and is generated from Singular help strings, libraries, commands, and runnable examples. Each page links to its corresponding documentation sources:</p>
 <div class="manual-actions">
   <a class="button" href="/web/">Open documentation</a>
   <a class="button button--secondary" href="/web/docs/examples-7d814cd3.html">Examples</a>
