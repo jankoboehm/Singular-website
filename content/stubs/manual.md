@@ -14,7 +14,7 @@ migration_status: "migrated from local legacy copy"
   <a class="button button--secondary" href="/web/docs/general-libraries-41931a54.html">Libraries</a>
   <a class="button button--secondary" href="/web/docs/singular-index-3d84a7be.html">Index</a>
 </div>
-<div class="archive-links">
+<div class="archive-links manual-archive-links">
   Old documentation:
   <a href="/old/Manual/4-4/index.htm">manual front page</a>,
   <a href="/ftp/pub/Math/Singular/doc/singular.pdf">PDF manual</a>,
