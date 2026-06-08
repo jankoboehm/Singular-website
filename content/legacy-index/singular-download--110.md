@@ -23,10 +23,10 @@ in /etc/apt/apt.conf or a file in /etc/apt/cond.d/<p>
 <li><code>apt-get install singular41</code></li></ul>
 An old version of Singular can be found in the official repositories. Note that the two versions conflict with each other.</li>
 <ul>
-Mirrors of the repositories are at
-<li><code>/ftp/repo/debian11</code></li>
-<li><code>/ftp/repo/debian12</code></li>
-<li><code>/ftp/repo/debian13</code></li>
+Repository directories are at
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/debian11">Debian 11 repository</a></li>
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/debian12">Debian 12 repository</a></li>
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/debian13">Debian 13 repository</a></li>
 </ul>
 <ul>
 </ul>
@@ -52,8 +52,8 @@ Mirrors of the repositories are at
 <ul>
 </ul>
 <ul>
-Mirrors of the repositories are at
-<li><code>/ftp/repo/ubuntu20</code></li>
-<li><code>/ftp/repo/ubuntu22</code></li>
-<li><code>/ftp/repo/ubuntu24</code></li>
+Repository directories are at
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/ubuntu20">Ubuntu 20.04 repository</a></li>
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/ubuntu22">Ubuntu 22.04 repository</a></li>
+<li><a href="https://www.singular.uni-kl.de/ftp/repo/ubuntu24">Ubuntu 24.04 repository</a></li>
 </ul>

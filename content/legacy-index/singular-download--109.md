@@ -36,9 +36,7 @@ migration_status: "migrated from local legacy copy"
 </tr>
 </tbody>
 </table>
-These (and other) archives can be downloaded from <a href="/ftp/pub/Math/Singular/UNIX">/ftp/pub/Math/Singular/UNIX</a>.
-<p> </p>
-A mirror is at <a href="/ftp/pub/Math/Singular/UNIX/"> https://www.singular.uni-kl.de/ftp/pub/Math/Singular/UNIX/ </a>.</li>
+These (and other) archives can be downloaded from the <a href="/ftp/pub/Math/Singular/UNIX/">Singular UNIX archive</a>.</li>
 </ul>
 <p>Please contact us if you cannot find an archive appropriate for your architecture.</p>
 <h2>Installing SINGULAR</h2>
@@ -160,7 +158,7 @@ For the <code>bash</code> (or, <code>ksh</code>) shell do:
 </tr>
 </tbody>
 </table>
-Most of these programs can be downloaded from <a href="/ftp/pub/Math/Singular/utils/">/ftp/pub/Math/Singular/utils/</a>.A mirror is at <a href="/ftp/pub/Math/Singular/utils/"> </a></li>
+Most of these programs can be downloaded from the <a href="/ftp/pub/Math/Singular/utils/">Singular utilities archive</a>.</li>
 <h4>Customize the on-line help system:</h4>
 <p>By default, on-line help is displayed in the first available help 	  browser defined in <code>share/singular/LIB/help.cnf</code>.</p>
 <p style="text-align: justify;">This behavior can be customized in several ways using the Singular commands <code>system("--browser",)</code> and <code>system("--allow-net", 1)</code> (or, by starting up Singular 	  with the respective command line options).</p>
