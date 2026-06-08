@@ -6,6 +6,8 @@ legacy_source: "index.php/news/release-of-singular-v3101.html"
 migration_status: "migrated from local legacy copy"
 ---
 
+<p class="archive-links">Published: Thursday, 30 April 2009 00:00</p>
+
 <h2>News for version 3.1.0.1</h2>
 <ul>
 <li> new coefficients: Z, Z/m, Z/(2^n) (see  <a href="/old/Manual/latest/sing_28.htm#SEC38">Rings and orderings</a>) </li>
