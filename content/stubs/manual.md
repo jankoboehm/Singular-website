@@ -12,7 +12,7 @@ migration_status: "migrated from local legacy copy"
   <a class="button" href="/web/">Open documentation</a>
   <a class="button button--secondary" href="/web/docs/examples-7d814cd3.html">Examples</a>
   <a class="button button--secondary" href="/web/docs/general-libraries-41931a54.html">Libraries</a>
-  <!-- <a class="button button--secondary" href="/web/docs/singular-index-3d84a7be.html">Index</a> -->
+  <a class="button button--secondary" href="/web/docs/singular-index-3d84a7be.html">Index</a>
 </div>
 <div class="archive-links manual-archive-links">
   Old documentation:
