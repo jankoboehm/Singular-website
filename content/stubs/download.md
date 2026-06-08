@@ -7,7 +7,7 @@ legacy_source: "index.php/singular-download.html"
 migration_status: "migrated from local legacy copy"
 ---
 
-Singular is available as a binary program for the most common hard- and     software platforms. The  version of the latest Singular distribution is .  Please choose your platform to get further instructions:</p>
+Singular is available as a binary program for the most common hard- and software platforms. The latest Singular distribution is version 4.4.1. Please choose your platform to get further instructions:</p>
 <ol>
 <li><a class="wanted" href="singular-download/install-linuxunix.html">Linux/Unix </a></li>
 <li><a class="wanted" href="singular-download/install-windows.html">  Windows</a></li>
