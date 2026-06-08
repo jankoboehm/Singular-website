@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Serve Hugo output together with root-level old/ and ftp/ mounts."""
+"""Serve Hugo output together with root-level old/, ftp/, and web/ mounts."""
 from __future__ import annotations
 
 import argparse
@@ -13,6 +13,7 @@ class IntegratedPreviewHandler(SimpleHTTPRequestHandler):
     public_root: Path
     old_root: Path
     ftp_root: Path
+    web_root: Path
 
     def translate_path(self, path: str) -> str:
         raw_path = unquote(urlsplit(path).path)
@@ -25,6 +26,9 @@ class IntegratedPreviewHandler(SimpleHTTPRequestHandler):
         elif raw_path == "/ftp" or raw_path.startswith("/ftp/"):
             root = self.ftp_root
             rel = raw_path.removeprefix("/ftp").lstrip("/")
+        elif raw_path == "/web" or raw_path.startswith("/web/"):
+            root = self.web_root
+            rel = raw_path.removeprefix("/web").lstrip("/")
 
         parts = [part for part in rel.split("/") if part not in {"", ".", ".."}]
         return str(root.joinpath(*parts))
@@ -44,14 +48,21 @@ def main() -> int:
     parser.add_argument("--public", type=Path, default=Path("public"))
     parser.add_argument("--old", type=Path, default=Path("old"))
     parser.add_argument("--ftp", type=Path, default=Path("ftp"))
+    parser.add_argument("--web", type=Path, default=Path("web"))
     args = parser.parse_args()
 
     handler = IntegratedPreviewHandler
     handler.public_root = args.public.resolve()
     handler.old_root = args.old.resolve()
     handler.ftp_root = args.ftp.resolve()
+    handler.web_root = args.web.resolve()
 
-    for label, root in [("public", handler.public_root), ("old", handler.old_root), ("ftp", handler.ftp_root)]:
+    for label, root in [
+        ("public", handler.public_root),
+        ("old", handler.old_root),
+        ("ftp", handler.ftp_root),
+        ("web", handler.web_root),
+    ]:
         if not root.exists():
             raise SystemExit(f"{label} root does not exist: {root}")
 
@@ -61,6 +72,7 @@ def main() -> int:
     print(f"  /     -> {handler.public_root}", flush=True)
     print(f"  /old/ -> {handler.old_root}", flush=True)
     print(f"  /ftp/ -> {handler.ftp_root}", flush=True)
+    print(f"  /web/ -> {handler.web_root}", flush=True)
     server.serve_forever()
     return 0
 

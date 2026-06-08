@@ -12,6 +12,10 @@ migration_status: "migrated from local legacy copy"
   <a class="button" href="/old/Manual/4-4/index.htm">Manual front page</a>
   <a class="button button--secondary" href="/ftp/pub/Math/Singular/doc/singular.pdf">PDF manual</a>
 </div>
+<p>The generated SingDoc browser is a separate documentation and search tree built from Singular help strings, libraries, commands, and runnable examples:</p>
+<div class="manual-actions">
+  <a class="button button--secondary" href="/web/">Open SingDoc</a>
+</div>
 <p style="text-align: left;">Alternatively, check the example section, see what libraries are available, or make use of the index which in particular highlights all Singular commands:</p>
 <div class="manual-actions">
   <a class="button button--secondary" href="/old/Manual/4-4/sing_931.htm">Examples</a>

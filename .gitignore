@@ -3,6 +3,7 @@
 /old/
 /ftp/
 /forum/
+/web/
 .hugo_build.lock
 .DS_Store
 __pycache__/

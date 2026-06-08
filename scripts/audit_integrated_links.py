@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit local links across Hugo output plus old/ and ftp/ mounts."""
+"""Audit local links across Hugo output plus old/, ftp/, and web/ mounts."""
 from __future__ import annotations
 
 import argparse
@@ -86,13 +86,16 @@ def read_text(path: Path) -> str:
     return raw.decode("utf-8", "replace")
 
 
-def file_url(path: Path, public_root: Path, old_root: Path, ftp_root: Path) -> str:
+def file_url(path: Path, public_root: Path, old_root: Path, ftp_root: Path, web_root: Path) -> str:
     if path.is_relative_to(old_root):
         rel = path.relative_to(old_root).as_posix()
         return "/old/" + quote(rel, safe="/%=&;")
     if path.is_relative_to(ftp_root):
         rel = path.relative_to(ftp_root).as_posix()
         return "/ftp/" + quote(rel, safe="/%=&;")
+    if path.is_relative_to(web_root):
+        rel = path.relative_to(web_root).as_posix()
+        return "/web/" + quote(rel, safe="/%=&;")
     rel = path.relative_to(public_root).as_posix()
     if rel == "index.html":
         return "/"
@@ -127,7 +130,13 @@ def is_legacy_root_path(url_path: str) -> bool:
     return first in LEGACY_ROOT_PREFIXES or first in LEGACY_ROOT_FILES
 
 
-def map_url_to_file(url_path: str, public_root: Path, old_root: Path, ftp_root: Path) -> tuple[str, Path | None]:
+def map_url_to_file(
+    url_path: str,
+    public_root: Path,
+    old_root: Path,
+    ftp_root: Path,
+    web_root: Path,
+) -> tuple[str, Path | None]:
     if url_path == "/":
         return "public", public_root / "index.html"
     if url_path.startswith("/old/"):
@@ -138,6 +147,10 @@ def map_url_to_file(url_path: str, public_root: Path, old_root: Path, ftp_root: 
         return "ftp", ftp_root / url_path.removeprefix("/ftp/").lstrip("/")
     if url_path == "/ftp":
         return "ftp", ftp_root
+    if url_path.startswith("/web/"):
+        return "web", web_root / url_path.removeprefix("/web/").lstrip("/")
+    if url_path == "/web":
+        return "web", web_root / "index.html"
     return "public", public_root / url_path.lstrip("/")
 
 
@@ -180,6 +193,7 @@ def main() -> int:
     parser.add_argument("--public", type=Path, default=Path("public"))
     parser.add_argument("--old", type=Path, default=Path("old"))
     parser.add_argument("--ftp", type=Path, default=Path("ftp"))
+    parser.add_argument("--web", type=Path, default=Path("web"))
     parser.add_argument("--include-ftp-missing", action="store_true")
     parser.add_argument("--limit", type=int, default=30)
     args = parser.parse_args()
@@ -187,23 +201,26 @@ def main() -> int:
     public_root = args.public.resolve()
     old_root = args.old.resolve()
     ftp_root = args.ftp.resolve()
+    web_root = args.web.resolve()
     files = list(public_root.rglob("*.html"))
     for pattern in ("*.html", "*.htm", "*.css"):
         files.extend(old_root.rglob(pattern))
+        if web_root.exists():
+            files.extend(web_root.rglob(pattern))
 
     counts: Counter[str] = Counter()
     examples: dict[str, list[str]] = defaultdict(list)
     total_links = 0
 
     for path in sorted(set(files)):
-        source_url = file_url(path.resolve(), public_root, old_root, ftp_root)
+        source_url = file_url(path.resolve(), public_root, old_root, ftp_root, web_root)
         for kind, link in collect_links(path):
             resolved = resolve_url(source_url, link)
             if not resolved:
                 continue
             total_links += 1
             url_path, query = resolved
-            mount, target = map_url_to_file(url_path, public_root, old_root, ftp_root)
+            mount, target = map_url_to_file(url_path, public_root, old_root, ftp_root, web_root)
             status = classify(source_url, link, url_path, query, mount, target)
             if status == "ftp-mount" and not args.include_ftp_missing:
                 counts[status] += 1

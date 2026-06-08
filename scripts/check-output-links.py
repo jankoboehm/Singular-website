@@ -2,7 +2,7 @@
 """Small generated-site link checker for internal static links.
 
 It intentionally allows compatibility/static-mount prefixes such as /old/,
-/Manual/, and /ftp/ that may be served outside Hugo.
+/Manual/, /ftp/, and /web/ that may be served outside Hugo.
 """
 from __future__ import annotations
 from html.parser import HTMLParser
@@ -16,6 +16,7 @@ ALLOWED_EXTERNAL_PREFIXES = (
     "/old/",
     "/Manual/",
     "/ftp/",
+    "/web/",
     "/publications/search/",
     "/publications/submit/",
     "/publications/view/",
