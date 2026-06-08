@@ -11,7 +11,7 @@ migration_status: "migrated from local legacy copy"
 <a class="button" href="https://github.com/Singular/Singular" target="_blank" rel="noopener">Open the Singular Git repository</a>
 </div>
 <p>We recommend to use git If you want to participate in developing Singular.</p>
-<p>There also <a href="ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/SOURCES/" target="_blank">source packages(ftp)</a> available
+<p>There also <a href="/ftp/pub/Math/Singular/SOURCES/" target="_blank">source packages(ftp)</a> available
 (mirror at <a href="/ftp/pub/Math/Singular/SOURCES/">https://www.singular.uni-kl.de/ftp/pub/Math/Singular/SOURCES/</a>) .</p>
 <p>For instructions on how to compile the Singular source code, see the Singular wiki on github:</p>
 <ul>

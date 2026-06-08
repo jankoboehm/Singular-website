@@ -13,7 +13,7 @@ migration_status: "migrated from local legacy copy"
 <p><span style="font-size: 12.16px;">change in the row "wget" the column "New" from "Skip" to some version</span></p>
 <p><span style="font-size: 12.16px;">and finish the installation</span></p>
 <p>2) in the cygwin terminal:</p>
-wget ftp://jim.mathematik.uni-kl.de/repo/cygwin/64/build.tar <br /> tar xf build.tar;
+wget https://www.singular.uni-kl.de/ftp/repo/cygwin/64/build.tar <br /> tar xf build.tar;
 bash build_cygwin</p>
 <p>Now Singular can be started within the cygwin terminal as Singular.</p>
 <p> </p>

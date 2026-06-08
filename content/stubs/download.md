@@ -32,10 +32,10 @@ Singular is a free software under the GNU General Public Licence. See       the 
 <li>surfex.lib requires <a href="http://surf.sf.net" style="font-variant:small-caps;">Surf</a>* and Java</li>
 <li>resgraph.lib requires <a href="http://www.graphviz.org/" style="font-variant:small-caps;">Graphviz</a> and <span>Xv</span> (or any other gif viewer)</li>
 </ol>
-<p>* A fixed copy of <a href="http://surf.sf.net" style="font-variant:small-caps;">Surf</a> for gcc version 6 is available here: <a href="ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/misc/surf-1.0.6-gcc6.tar.gz">ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/misc/surf-1.0.6-gcc6.tar.gz </a>.</p>
+<p>* A fixed copy of <a href="http://surf.sf.net" style="font-variant:small-caps;">Surf</a> for gcc version 6 is available here: <a href="ftp://www.singular.uni-kl.de/pub/Math/Singular/misc/surf-1.0.6-gcc6.tar.gz">ftp://www.singular.uni-kl.de/pub/Math/Singular/misc/surf-1.0.6-gcc6.tar.gz </a>.</p>
 <p>A mirror is <a href="/ftp/pub/Math/Singular/misc/surf-1.0.8-gcc6.tar.gz">https://www.singular.uni-kl.de/ftp/pub/Math/Singular/misc/surf-1.0.8-gcc6.tar.gz</a></p>
 <p> </p>
 <ol> </ol>
 <p> </p>
-<p>You may also check our ftp site for what else is available: <a href="ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/">ftp://jim.mathematik.uni-kl.de/pub/Math/Singular/</a>.</p>
+<p>You may also check our ftp site for what else is available: <a href="/ftp/pub/Math/Singular/">/ftp/pub/Math/Singular/</a>.</p>
 <p>It is mirrored at <a href="/ftp/pub/Math/Singular/">https://www.singular.uni-kl.de/ftp/pub/Math/Singular/</a>.</p>

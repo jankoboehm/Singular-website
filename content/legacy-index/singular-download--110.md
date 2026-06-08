@@ -15,18 +15,18 @@ in /etc/apt/apt.conf or a file in /etc/apt/cond.d/<p>
 </ul>
 <p>Step-by-step instructions for <strong>Debian 11/12/13</strong> (only 64 bit):</p>
 <ul>
-<li>add GPG key:<br /><code>wget ftp://jim.mathematik.uni-kl.de/repo/extra/gpg</a></code><br /><code>apt-key add gpg</code></li>
+<li>add GPG key:<br /><code>wget https://www.singular.uni-kl.de/ftp/repo/extra/gpg</code><br /><code>apt-key add gpg</code></li>
 <li>add (for debian11)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/debian11 bullseye main</code><br />to <code>/etc/apt/sources.list</code></li>
 <li>add (for debian12)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/debian12 bookworm main</code><br />to <code>/etc/apt/sources.list</code></li>
-<li>add (for debian13)<br /><code>deb https://wwww.singular.uni-kl.de/ftp/repo/debian13 trixie main</code><br />to <code>/etc/apt/sources.list</code></li>
+<li>add (for debian13)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/debian13 trixie main</code><br />to <code>/etc/apt/sources.list</code></li>
 <li><code>apt-get update</code></li>
 <li><code>apt-get install singular41</code></li></ul>
 An old version of Singular can be found in the official repositories. Note that the two versions conflict with each other.</li>
 <ul>
 Mirrors of the repositories are at
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/debian11</code></li>
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/debian12</code></li>
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/debian13</code></li>
+<li><code>/ftp/repo/debian11</code></li>
+<li><code>/ftp/repo/debian12</code></li>
+<li><code>/ftp/repo/debian13</code></li>
 </ul>
 <ul>
 </ul>
@@ -41,8 +41,8 @@ Mirrors of the repositories are at
 </ul>
 <p style="font-size: 12.16px; padding-left: 30px;">However, this will most probably not install the latest version. For the latest version, <a href="109.html">manually install Singular via TGZ</a>, or follow these instructions (only 64 bit):</p>
 <ul style="font-size: 12.16px;">
-<li>add GPG key:<br /><code>wget ftp://jim.mathematik.uni-kl.de/repo/extra/gpg</a></code><br /><code>apt-key add gpg</code></li>
-<li><code>add (for 20.04)<br /><code>deb https://www.singular.uni-kl.de/ftprepo/ubuntu20 focal main</code><br />to <code>/etc/apt/sources.list</code></code></li>
+<li>add GPG key:<br /><code>wget https://www.singular.uni-kl.de/ftp/repo/extra/gpg</code><br /><code>apt-key add gpg</code></li>
+<li><code>add (for 20.04)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/ubuntu20 focal main</code><br />to <code>/etc/apt/sources.list</code></code></li>
 <li><code>add (for 22.04)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/ubuntu22 jammy main</code><br />to <code>/etc/apt/sources.list</code></code></li>
 <li><code>add (for 24.04)<br /><code>deb https://www.singular.uni-kl.de/ftp/repo/ubuntu24 noble main</code><br />to <code>/etc/apt/sources.list</code></code></li>
 <li><code>apt-get update</code></li>
@@ -53,7 +53,7 @@ Mirrors of the repositories are at
 </ul>
 <ul>
 Mirrors of the repositories are at
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/ubuntu20</code></li>
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/ubuntu22</code></li>
-<li><code>ftp://jim.mathematik.uni-kl.de/repo/ubuntu24</code></li>
+<li><code>/ftp/repo/ubuntu20</code></li>
+<li><code>/ftp/repo/ubuntu22</code></li>
+<li><code>/ftp/repo/ubuntu24</code></li>
 </ul>

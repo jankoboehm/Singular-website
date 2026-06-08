@@ -147,7 +147,7 @@ def normalize_raw_link(raw: str, base_rel: str) -> tuple[str, str | None]:
     if split.scheme.lower() in IGNORED_SCHEMES:
         return "external", value
     if split.scheme.lower() == "ftp":
-        if split.hostname == "jim.mathematik.uni-kl.de" and split.path.startswith("/pub/Math/Singular/"):
+        if split.path.startswith(("/pub/Math/Singular/", "/repo/")):
             return "ftp", "/ftp" + split.path
         return "external", value
     if split.scheme.lower() in {"http", "https"}:
